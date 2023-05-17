@@ -1,0 +1,219 @@
+.title-galery{
+    width: 100%;
+    height: 230px;
+    background-image: url('../img/productsbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .layer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 230px;
+        background-color: rgba(0, 0, 0, 0.4);
+
+        .text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30%;
+            height: 100px;
+
+            h1{
+                color: white;
+                font-size: 50px;
+                font-weight: 600;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+    }
+}
+
+.galery-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+
+    .main-box{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        height: auto;
+
+        .part1{
+            width: 32%;
+            height: auto;
+
+            .photo1{
+                width: 100%;
+                height: 240px;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 240px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .photo2{
+                width: 100%;
+                height: 450px;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 450px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .photo3{
+                width: 100%;
+                height: 240px;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 240px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .photo4{
+                width: 100%;
+                height: 450px;
+
+                img{
+                    width: 100%;
+                    height: 450px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .part2{
+            width: 32%;
+            height: auto;
+
+            .photo1{
+                width: 100%;
+                height: 450px;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 450px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .photo2{
+                width: 100%;
+                height: 240px;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 240px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .photo3{
+                width: 100%;
+                height: 450px;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 450px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .photo4{
+                width: 100%;
+                height: 240px;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 240px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .part3{
+            width: 32%;
+            height: auto;
+
+            .photo1{
+                width: 100%;
+                height: 240px;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 240px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .photo2{
+                width: 100%;
+                height: 450px;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 450px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .photo3{
+                width: 100%;
+                height: 240px;
+                margin-bottom: 20px;
+
+                img{
+                    width: 100%;
+                    height: 240px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .photo4{
+                width: 100%;
+                height: 450px;
+
+                img{
+                    width: 100%;
+                    height: 450px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

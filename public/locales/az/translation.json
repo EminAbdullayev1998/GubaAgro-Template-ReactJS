@@ -1,0 +1,87 @@
+{
+    "header":{
+        "0": "Əsas Səhifə",
+        "1": "Haqqımızda",
+        "2": "Məhsullar",
+        "3": "Xəbərlər",
+        "4": "Qalereya",
+        "5": "Əlaqə"
+    },
+
+    "home":{
+        "about": "Guba Agro şirkəti sizə ən yüksək keyfiyyət standartlarına uyğun olaraq yetişdirilən almaların bənzərsiz dadını bəxş etmək üçün yaranmışdır.",
+        "button1": "Daha Ətraflı",
+        "1h1": "Məhsullar",
+        "2h1": "SAHƏLƏRİ",
+        "1p1": "Guba Agro'da keyfiyyət bir nömrəli məqsədimizdir.",
+        "3h1": "XƏBƏRLƏR",
+        "button2": "Hamısına bax"
+    },
+
+    "about":{
+        "1h1": "HAQQIMIZDA",
+        "1p": "Guba Agro şirkəti Sizə ən yüksək keyfiyyət standartlarına uyğun olaraq yetişdirilən almaların bənzərsiz dadını bəxş etmək üçün yaranmışdır. Guba Agro, bağbançılıq sahəsindəki uzun illər təcrübəsinə əsaslanaraq dad və keyfiyyət üçün yeni bir sənaye standartı təyin edir.",
+        "2p": "Ümumi sahəsi 105 hektar olan Guba Agro Quba rayonunda yerləşir. Ağaclarımızın əkilməsi prosesinin əsasında intensiv bağbançılıq texnologiyasından istifadə edərək ən populyar alma növlərini yetişdiririk.",
+        "3p": "Bu texnologiya hər bir alma ağacının qəti şəkildə lazımi miqdarda qida almasına imkan verir, bunun nəticəsində hər çeşid öz dadını və ticarət keyfiyyətlərini tam şəkildə ortaya qoyur.",
+        "2h1": "Vizyonumuz",
+        "4p": "Müştərilərimiz Guba Agro -nu alma sənayesi üçün etalon olaraq qəbul edəcəklər. Ekoloji təmizliyə önəm verən Guba Agro, işçiləri üçün təhlükəsiz və mükafatlandırıcı bir iş mühiti yaratmağa çalışacaq.",
+        "5p": "Maliyyə müvəffəqiyyətini artırarkən ən müasir əkinçilik təcrübələrindən istifadə edərək böyüməyə inkişaf etməyə və şaxələndirməyə davam edəcək. Guba Agro'da keyfiyyət bir nömrəli məqsədimizdir.",
+        "6p": "Müştərilərimizi ən yüksək keyfiyyətli məhsul və xidmətlərlə təmin etmək üçün işimizin bütün aspektlərində - insanlarımızda, əməliyyatlarda və proseslərdə mütləq keyfiyyəti mənimsəməyə və tətbiğ etməyə çalışırıq.",
+        "3h1": "Missiyamız",
+        "7p": "Uzun illər bağbançılıq ənənələrinin təcrübəsinə əsaslanaraq, ölkəmizin əhalisinin sağlamlığının qayğısına qalan Guba Agro-nun missiyası ətraf mühit üçün zərərsiz, ekoloji təmiz, keyfiyyətli meyvə məhsullarını mümkün qədər səmərəli istehsal etmək və satmaqdır.",
+        "8p": "İşçilərimiz ən yüksək keyfiyyətli məhsul istehsal etməyə çalışır və bununla da müştəri məmnuniyyətini maksimum dərəcədə artırır.",
+        "9p": "Təhlükəsiz və dəstəkləyici bir iş mühitində vicdanlılığı və mütərəqqi əkinçilik təcrübələrini təbliq etdirərək komanda işi ilə buna nail oluruq."
+    },
+
+    "products":{
+        "h1": "MƏHSULLAR"
+    },
+
+    "news":{
+        "h1": "XƏBƏRLƏR"
+    },
+
+    "galery":{
+        "h1": "QALEREYA"
+    },
+
+    "contact":{
+        "h1": "ƏLAQƏ",
+        "2h1": "Telefon",
+        "3h1": "Ünvan",
+        "4h1": "Onlayn müraciət",
+        "5h1": "Daha Ətraflı"
+    },
+
+    "productcard":{
+        "1p1": "Kalibri",
+        "2p1": "Çəkisi",
+        "3p1": "Dadı"
+    },
+
+    "homecategory":{
+        "1p1": "Haqqımızda",
+        "2p1": "Missiyamız",
+        "3p1": "Vizyonumuz",
+        "1li": "Guba Agro, bağbançılıq sahəsindəki uzun illər təcrübəsinə əsaslanaraq dad və keyfiyyət üçün yeni bir sənaye standartı təyin edir.",
+        "2li": "Ümumi sahəsi 105 hektar olan Guba Agro Quba rayonunda yerləşir.",
+        "3li": "Ağaclarımızın əkilməsi prosesinin əsasında intensiv bağbançılıq texnologiyasından istifadə edərək ən populyar alma növlərini yetişdiririk.",
+        "4li": "Bu texnologiya hər bir alma ağacının qəti şəkildə lazımi miqdarda qida almasına imkan verir, bunun nəticəsində hər çeşid öz dadını və ticarət keyfiyyətlərini tam şəkildə ortaya qoyur.",
+        "5li": "Uzun illər bağbançılıq ənənələrinin təcrübəsinə əsaslanaraq, ölkəmizin əhalisinin sağlamlığının qayğısına qalan Guba Agro-nun missiyası ətraf mühit üçün zərərsiz, ekoloji təmiz, keyfiyyətli meyvə məhsullarını mümkün qədər səmərəli istehsal etmək və satmaqdır.",
+        "6li": "İşçilərimiz ən yüksək keyfiyyətli məhsul istehsal etməyə çalışır və bununla da müştəri məmnuniyyətini maksimum dərəcədə artırır.",
+        "7li": "Təhlükəsiz və dəstəkləyici bir iş mühitində vicdanlılığı və mütərəqqi əkinçilik təcrübələrini təbliq etdirərək komanda işi ilə buna nail oluruq.",
+        "8li": "Müştərilərimiz Guba Agro -nu alma sənayesi üçün etalon olaraq qəbul edəcəklər.",
+        "9li": "Ekoloji təmizliyə önəm verən Guba Agro, işçiləri üçün təhlükəsiz və mükafatlandırıcı bir iş mühiti yaratmağa çalışacaq.",
+        "10li": "Maliyyə müvəffəqiyyətini artırarkən ən müasir əkinçilik təcrübələrindən istifadə edərək böyüməyə inkişaf etməyə və şaxələndirməyə davam edəcək.",
+        "11li": "Müştərilərimizi ən yüksək keyfiyyətli məhsul və xidmətlərlə təmin etmək üçün işimizin bütün aspektlərində - insanlarımızda, əməliyyatlarda və proseslərdə mütləq keyfiyyəti mənimsəməyə və tətbiğ etməyə çalışırıq."
+    },
+
+    "footer":{
+        "1li": "Əsas Səhifə",
+        "2li": "Haqqımızda",
+        "3li": "Məhsullar",
+        "4li": "Xəbərlər",
+        "5li": "Qalereya",
+        "6li": "Əlaqə"
+    }
+}

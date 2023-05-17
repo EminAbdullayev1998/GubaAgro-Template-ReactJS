@@ -1,0 +1,45 @@
+@import 'header';
+
+@import 'home';
+
+@import 'about';
+
+@import 'products';
+
+@import 'news';
+
+@import 'galery';
+
+@import 'contact';
+
+@import 'loader';
+
+@import 'productCard';
+
+@import 'newsCard';
+
+@import 'footer';
+
+@import 'responsive';
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #54B435;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3b7a26;
+  }

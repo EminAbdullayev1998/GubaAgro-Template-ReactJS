@@ -1,0 +1,87 @@
+{
+    "header":{
+        "0": "Home",
+        "1": "About Us",
+        "2": "Products",
+        "3": "News",
+        "4": "Gallery",
+        "5": "Contact Us"
+    },
+
+    "home":{
+        "about": "Guba Agro company was created to give you the unique taste of apples grown according to the highest quality standards.",
+        "button1": "More details",
+        "1h1": "Products",
+        "2h1": "AREAS",
+        "1p1": "At Guba Agro, quality is our number one goal.",
+        "3h1": "NEWS",
+        "button2": "See All"
+    },
+
+    "about":{
+        "1h1": "ABOUT US",
+        "1p": "Guba Agro company was created to give you the unique taste of apples grown according to the highest quality standards. Guba Agro sets a new industry standard for taste and quality based on many years of experience in horticulture.",
+        "2p": "Guba Agro with a total area of 105 hectares is located in Guba district. Based on the process of planting our trees, we grow the most popular apple varieties using intensive horticultural technology.",
+        "3p": "This technology allows each apple tree to receive exactly the right amount of nutrients, as a result of which each variety fully reveals its taste and commercial qualities.",
+        "2h1": "Our vision",
+        "4p": "Our customers will accept Guba Agro as a benchmark for the apple industry. With an emphasis on environmental cleanliness, Guba Agro will strive to create a safe and rewarding work environment for its employees.",
+        "5p": "It will continue to grow and diversify using state-of-the-art farming practices while increasing its financial success. At Guba Agro, quality is our number one goal.",
+        "6p": "We strive to adopt and implement absolute quality in all aspects of our business - in our people, operations and processes - to provide our customers with the highest quality products and services.",
+        "3h1": "OUR MISSION",
+        "7p": "The mission of Guba Agro, which takes care of the health of the population of our country based on the experience of horticultural traditions for many years, is to produce and sell quality fruit products that are harmless to the environment, ecologically clean, as efficiently as possible.",
+        "8p": "Our employees strive to produce the highest quality products, thereby maximizing customer satisfaction.",
+        "9p": "We achieve this through teamwork, promoting integrity and progressive farming practices in a safe and supportive work environment."
+    },
+
+    "products":{
+        "h1": "PRODUCTS"
+    },
+
+    "news":{
+        "h1": "NEWS"
+    },
+
+    "galery":{
+        "h1": "GALLERY"
+    },
+
+    "contact":{
+        "h1": "CONTACT",
+        "2h1": "Phone",
+        "3h1": "Address",
+        "4h1": "Appeal online",
+        "5h1": "More details"
+    },
+
+    "productcard":{
+        "1p1": "Caliber",
+        "2p1": "Weight",
+        "3p1": "Taste"
+    },
+
+    "homecategory":{
+        "1p1": "About US",
+        "2p1": "Our Mission",
+        "3p1": "Our Vision",
+        "1li": "Guba Agro sets a new industry standard for taste and quality based on many years of experience in horticulture.",
+        "2li": "Guba Agro with a total area of 105 hectares is located in Guba district.",
+        "3li": "Based on the process of planting our trees, we grow the most popular apple varieties using intensive horticultural technology.",
+        "4li": "This technology allows each apple tree to receive exactly the right amount of nutrients, as a result of which each variety fully reveals its taste and commercial qualities.",
+        "5li": "The mission of Guba Agro, which takes care of the health of the population of our country based on the experience of horticultural traditions for many years, is to produce and sell quality fruit products that are harmless to the environment, ecologically clean, as efficiently as possible.",
+        "6li": "Our employees strive to produce the highest quality products, thereby maximizing customer satisfaction.",
+        "7li": "We achieve this through teamwork, promoting integrity and progressive farming practices in a safe and supportive work environment.",
+        "8li": "Our customers will accept Guba Agro as a benchmark for the apple industry.",
+        "9li": "With an emphasis on environmental cleanliness, Guba Agro will strive to create a safe and rewarding work environment for its employees.",
+        "10li": "It will continue to grow and diversify using state-of-the-art farming practices while increasing its financial success.",
+        "11li": "We strive to adopt and implement absolute quality in all aspects of our business - in our people, operations and processes - to provide our customers with the highest quality products and services."
+    },
+
+    "footer":{
+        "1li": "Home",
+        "2li": "About Us",
+        "3li": "Products",
+        "4li": "News",
+        "5li": "Gallery",
+        "6li": "Contact"
+    }
+}

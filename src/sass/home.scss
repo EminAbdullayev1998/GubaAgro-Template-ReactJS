@@ -1,0 +1,663 @@
+.home{
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    video{
+        width: 100%;
+        height: 600px;
+        object-fit: fill;
+    }
+
+    .layer{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 603px;
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .text-box{
+        position: absolute;
+        top: 120px;
+        left: 250px;
+        width: 550px;
+        height: auto;
+
+        .title{
+            width: 100%;
+            height: auto;
+            
+            h1{
+                color: white;
+                font-size: 64px;
+                font-weight: 600;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+
+        .about{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 150px;
+
+            p{
+                color: white;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+
+        .button-box{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 100px;
+            
+
+            button{
+                width: 200px;
+                height: 50px;
+                border-radius: 20px;
+                border: none;
+                cursor: pointer;
+                font-size: 15px;
+                color: white;
+                background-color: #1F344F;
+                transition: all 0.5s;
+                &:hover{
+                    background-color: #3EB549;
+
+                    .fa-arrow-right {
+                        opacity: 1;
+                        visibility: visible;
+                        animation: arrow-right 0.5s linear forwards;
+                    }
+
+                    @keyframes arrow-right {
+                        0% {
+                          transform: translateX(30px);
+                        }
+                        100% {
+                            transform: translateX(0px);
+                        }
+                    }
+                }
+
+                .fa-apple-whole{
+                    font-size: 20px;
+                    margin-right: 3px;
+                }
+
+                .fa-arrow-right{
+                    font-size: 15px;
+                    margin-left: 3px;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
+
+.products{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+    background-image: url('../img/homebg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .hero-box{
+        width: 80%;
+        height: 400px;
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 50px;
+
+            h1{
+                font-size: 44px;
+                color: #1F344F;
+                font-weight: 600;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+
+        .list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 350px;
+            padding-top: 20px;
+        }
+    }
+
+
+    .path1{
+        position: absolute;
+        top: 550px;
+        left: 0px;
+        width: 100%;
+        height: 100px;
+        background-color: white;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 37.25%, 61.97% 61.11%, 0% 100%);
+    }
+}
+
+
+.aboutUs{
+    width: 100%;
+    height: 800px;
+    background-image: url('../img/homebg2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .layer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 800px;
+        background-color: rgba(0,0,0,0.6);
+
+        .main-box{
+            width: 80%;
+            height: 600px;
+            margin-top: 100px;
+    
+            .aboutUs-title{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 60px;
+    
+                h1{
+                    color: white;
+                    font-size: 64px;
+                    font-weight: 600;
+                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                }
+            }
+
+            .hero-box{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 540px;
+
+                .main-div{
+                    display: flex;
+                    width: 90%;
+                    height: 540px;
+
+                    .category-div{
+                        width: 30%;
+                        height: 540px;
+
+                        .haqqimizda{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 80px;
+                            cursor: pointer;
+                            margin-top: 60px;
+                            border-radius: 45px 0 0 45px;
+
+                            .circle{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 65px;
+                                height: 65px;
+                                border-radius: 50px;
+                                margin-left: 10px;
+                                background-color: rgba(255,255,255,.24);
+                            }
+
+                            p{
+                                color: white;
+                                font-size: 30px;
+                                margin-left: 15px;
+                            }
+                        }
+
+                        .missiyamız{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 80px;
+                            cursor: pointer;
+                            margin-top: 50px;
+                            border-radius: 45px 0 0 45px;
+
+                            .circle{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 65px;
+                                height: 65px;
+                                border-radius: 50px;
+                                margin-left: 10px;
+                                background-color: rgba(255,255,255,.24);
+                            }
+
+                            p{
+                                color: white;
+                                font-size: 30px;
+                                margin-left: 15px;
+                            }
+                        }
+
+                        .vizyonumuz{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 80px;
+                            cursor: pointer;
+                            margin-top: 50px;
+                            border-radius: 45px 0 0 45px;
+
+                            .circle{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 65px;
+                                height: 65px;
+                                border-radius: 50px;
+                                margin-left: 10px;
+                                background-color: rgba(255,255,255,.24);
+                            }
+
+                            p{
+                                color: white;
+                                font-size: 30px;
+                                margin-left: 15px;
+                            }
+                        }
+
+                        .active-category{
+                            background-color: white;
+                            .circle{
+                                background-color: #3EB549;
+                            }
+
+                            p{
+                                color: #3EB549;
+                            }
+                        }
+                    }
+
+                    .hero-div{
+                        display: flex;
+                        align-items: center;
+                        width: 70%;
+                        height: 540px;
+
+                        .haqqimizda-div{
+                            display: flex;
+                            align-items: center;
+                            width: 90%;
+                            height: 480px;
+                            border-radius: 5px;
+                            background-color: white;
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+                            ul{
+                                width: 95%;
+                                height: 400px;
+
+                                li{
+                                    list-style: disc;
+                                    font-size: 20px;
+                                    line-height: 35px;
+                                    margin-left: 30px;
+                                    margin-bottom: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+
+    .main-box{
+        width: 80%;
+        height: auto;
+
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 50px;
+
+            h1{
+                color: #3EB549;
+                font-weight: 600;
+                font-size: 44px;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            }
+        }
+
+        .carousel-box{
+            width: 100%;
+            height: auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            .carouselImageBox {
+                width: 98%;
+                margin-left: 1%;
+            }
+            .carouselImage {
+                width: 100%; 
+                height: 200px;
+                border-radius: 5px;
+            }
+
+            .left{
+                width: 70px;
+                height: 70px;
+            }
+
+            .right{
+                width: 90px;
+                height: 90px;
+            }
+        }
+
+        .button-box{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 100%;
+            height: 80px;
+
+            button{
+                width: 200px;
+                height: 50px;
+                border-radius: 20px;
+                border: none;
+                cursor: pointer;
+                font-size: 15px;
+                color: white;
+                background-color: #1F344F;
+                transition: all 0.5s;
+                &:hover{
+                    background-color: #3EB549;
+
+                    .fa-arrow-right {
+                        opacity: 1;
+                        visibility: visible;
+                        animation: arrow-right 0.5s linear forwards;
+                    }
+
+                    @keyframes arrow-right {
+                        0% {
+                          transform: translateX(30px);
+                        }
+                        100% {
+                            transform: translateX(0px);
+                        }
+                    }
+                }
+
+                .fa-apple-whole{
+                    font-size: 20px;
+                    margin-right: 3px;
+                }
+
+                .fa-arrow-right{
+                    font-size: 15px;
+                    margin-left: 3px;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
+
+.slogan{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/sloganbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .logo{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 500px;
+        background: rgba(31,52,79,.9);
+
+        img{
+            width: 300px;
+            height: 200px;
+        }
+
+        .layer{
+            position: absolute;
+            top: 0px;
+            right: -129px;
+            width: 130px;
+            height: 500px;
+            background: rgba(31,52,79,.9);
+            clip-path: polygon(0 0, 0% 100%, 100% 100%);
+        }
+    }
+
+    .text-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 500px;
+        background-color: transparent;
+
+        .hero-box{
+            width: 50%;
+            height: auto;
+
+            .text{
+                width: 100%;
+                height: auto;
+                padding-bottom: 15px;
+
+                p{
+                    color: white;
+                    font-size: 36px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+            }
+
+            .button-box{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 100px;
+
+                button{
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 20px;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 15px;
+                    color: white;
+                    background-color: #1F344F;
+                    transition: all 0.5s;
+                    &:hover{
+                        background-color: #3EB549;
+    
+                        .fa-arrow-right {
+                            opacity: 1;
+                            visibility: visible;
+                            animation: arrow-right 0.5s linear forwards;
+                        }
+    
+                        @keyframes arrow-right {
+                            0% {
+                              transform: translateX(30px);
+                            }
+                            100% {
+                                transform: translateX(0px);
+                            }
+                        }
+                    }
+    
+                    .fa-apple-whole{
+                        font-size: 20px;
+                        margin-right: 3px;
+                    }
+    
+                    .fa-arrow-right{
+                        font-size: 15px;
+                        margin-left: 3px;
+                        opacity: 0;
+                        visibility: hidden;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/homebg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .main-box{
+        width: 80%;
+        height: auto;
+
+        .news-title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 50px;
+            padding-bottom: 20px;
+
+            h1{
+                color: #1F344F;
+                font-size: 44px;
+                font-weight: 600;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+
+        .cards-list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: auto;
+            padding-bottom: 30px;
+        }
+
+        .button-box{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 100%;
+            height: 100px;
+
+            button{
+                width: 200px;
+                height: 50px;
+                border-radius: 20px;
+                border: none;
+                cursor: pointer;
+                font-size: 15px;
+                color: white;
+                background-color: #1F344F;
+                transition: all 0.5s;
+                &:hover{
+                    background-color: #3EB549;
+
+                    .fa-arrow-right {
+                        opacity: 1;
+                        visibility: visible;
+                        animation: arrow-right 0.5s linear forwards;
+                    }
+
+                    @keyframes arrow-right {
+                        0% {
+                          transform: translateX(30px);
+                        }
+                        100% {
+                            transform: translateX(0px);
+                        }
+                    }
+                }
+
+                .fa-apple-whole{
+                    font-size: 20px;
+                    margin-right: 3px;
+                }
+
+                .fa-arrow-right{
+                    font-size: 15px;
+                    margin-left: 3px;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
+
+.back-to-up-default{
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.back-to-up-default-text{
+    background-color: #3EB549;
+    border-radius: 50px;
+    span{
+        color: white;
+    }
+}
+
+.to-up-percent{
+    display: none;
+}

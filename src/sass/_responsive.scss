@@ -1,0 +1,1827 @@
+@media only screen and (max-width: 480px){
+
+    header{
+        position: relative;
+        height: 100px;
+        .logo{
+            width: 30%;
+            height: 100px;
+
+            .path{
+                top: -2px;
+                right: -150px;
+                height: 102px;
+            }
+        }
+
+        .nav{
+            width: 70%;
+            height: 100px;
+            .navOne{
+                display: none;
+            }
+
+            .navTwo{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                height: 100px;
+
+                ul{
+                    display: none;
+                }
+
+                .fa-solid{
+                    display: block;
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                    margin-right: 20px;
+                    color: #3EB549;
+                }
+            }
+        }
+
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 100px;
+            width: 100%;
+            height: 600px;
+            z-index: 99;
+            transition: all 0.5s;
+            background-color: #F6F1F1;
+
+            .main-box{
+                width: 80%;
+                height: 500px;
+
+                .nav{
+                    width: 100%;
+                    height: auto;
+
+                    .ul{
+                        width: 100%;
+                        height: 240px;
+                        text-align: center;
+                        margin-top: 10px;
+                        background-color: #F6F1F1;
+                        a{
+                            text-decoration: none;
+                            color: black;
+
+                            li{
+                                font-size: 20px;
+                                font-family: 'Times New Roman', Times, serif;
+                                margin-bottom: 20px;
+                                cursor: pointer;
+                                &:hover{
+                                    color: #3EB549;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .nav-2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 100%;
+                    height: 80px;
+
+                    button{
+                        font-size: 18px;
+                        font-weight: 600;
+                        background: transparent;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+
+                .nav-3{
+                    text-align: center;
+                    width: 100%;
+                    height: 150px;
+
+                    p{
+                        color: black;
+                        font-size: 20px;
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    // home sehifesi 
+    .home{
+        .text-box{
+            width: 80% !important;
+            top: 100px;
+            left:30px;
+
+            .title{
+                padding-bottom: 20px;
+                h1{
+                    font-size: 40px;
+                }
+            }
+
+            .about{
+                padding-bottom: 20px;
+                p{
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+
+    .products{
+        align-items: initial;
+        height: 1600px;
+        .hero-box{
+            width: 90%;
+            height: 1500px;
+            .list{
+                justify-content: center;
+                flex-wrap: wrap;
+                .product-card{
+                    width: 300px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .path1{
+            top: 1570px;
+        }
+    }
+
+    .aboutUs{
+        height: 1800px !important;
+        .layer{
+            align-items: initial;
+            padding-top: 50px;
+            height: 1750px;
+            .main-box{
+                width: 90%;
+                margin-top: 400px;
+                margin-top: 80px;
+                .aboutUs-title{
+                    align-items: initial;
+                    height: auto;
+                }
+                .hero-box{
+                    height: 1300px;
+                    .main-div{
+                        align-items: center;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        width: 100%;
+                        height: auto;
+                        .category-div{
+                            width: 100%;
+                            height: auto;
+                            .haqqimizda{
+                                border-radius: 50px;
+                            }
+                            .missiyamız{
+                                border-radius: 50px;
+                            }
+                            .vizyonumuz{
+                                border-radius: 50px;
+                            }
+                            .active-category{
+                                border-radius: 50px;
+                            }
+                        }
+                        .hero-div{
+                            align-items: initial;
+                            text-align: center;
+                            width: 100%;
+                            height: 920px;
+                            .haqqimizda-div{
+                                align-items: initial;
+                                margin-top: 50px;
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .carousel{
+
+        .main-box{
+            width: 90%;
+
+            .title{
+                height: auto;
+            }
+        }
+    }
+
+    .slogan{
+        flex-wrap: wrap;
+        height: 1000px;
+
+        .logo{
+            width: 100%;
+            .layer{
+                display: none;
+            }
+        }
+
+        .text-box{
+            width: 100%;
+
+            .hero-box{
+                width: 90%;
+            }
+        }
+    }
+
+    .news{
+        align-items: initial;
+        height: 1500px;
+
+        .main-box{
+            width: 90%;
+            height: auto !important;
+
+            .cards-list{
+                justify-content: center;
+                flex-wrap: wrap;
+
+                .news-card{
+                    width: 400px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    footer{
+        height: auto;
+
+        .footer-top{
+            height: 800px;
+
+            .main-box{
+                width: 90%;
+                flex-wrap: wrap;
+                height: auto;
+
+                .logo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                }
+
+                .nav-1{
+                    width: 50%;
+                }
+
+                .nav-2{
+                    width: 50%;
+                }
+
+                .subscribe{
+                    width: 100%;
+                }
+            }
+        }
+
+        .footer-alt{
+            height: 300px;
+
+            .hero-box{
+                width: 50%;
+                height: auto;
+                gap: 20px;
+            }
+        }
+    }
+
+
+    // mehsullar sehifesi
+    .products-section{
+        height: auto;
+        align-items: initial;
+
+        .main-box{
+            width: 90%;
+
+            .product-card{
+                width: 300px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    // xeberler sehifesi
+    .news-section{
+        height: auto;
+
+        .main-box{
+            width: 90%;
+
+            .news-card{
+                width: 400px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    // galeriya sehifesi
+    .galery-box{
+        .main-box{
+            flex-wrap: wrap;
+            width: 90%;
+
+            .part1{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .part2{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .part3{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    // contact sehifesi
+    .adresses{
+        height: auto;
+
+        .hero-box{
+            height: auto;
+            flex-direction: column;
+            background-color: aquamarine;
+
+            .telephone-box{
+                width: 100%;
+                border-bottom: 3px solid #3EB549;
+
+                ::after{
+                    display: none;
+                }
+
+                .logo{
+                    justify-content: center;
+                }
+
+                .title{
+                    justify-content: center;
+                }
+
+                .number{
+                    justify-content: center;
+                }
+            }
+
+            .adress-box{
+                width: 100%;
+                border-bottom: 3px solid #3EB549;
+
+                ::after{
+                    display: none;
+                }
+
+                .logo{
+                    justify-content: center;
+                }
+
+                .title{
+                    justify-content: center;
+                }
+
+                .adress{
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+
+            .email-box{
+                width: 100%;
+
+                .logo{
+                    justify-content: center;
+                }
+
+                .title{
+                    justify-content: center;
+                }
+
+                .number{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .form-section{
+        height: auto;
+
+        .main-box{
+            height: auto;
+            flex-direction: column;
+
+            .photo{
+                width: 100%;
+                padding-top: 50px;
+            }
+
+            .photo::before{
+                top: 60px;
+                left: 10px;
+            }
+
+            .form-box{
+                width: 100%;
+                height: auto;
+
+                .text{
+                    padding-top: 30px;
+                }
+
+                .inputs-group{
+                    height: auto;
+                    flex-direction: column;
+
+                    .input-name{
+                        width: 95%;
+                        margin-bottom: 10px;
+                        margin-left: 0px;
+                    }
+
+                    .input-email{
+                        width: 95%;
+                        margin-right: 0px;
+                    }
+                }
+
+                .meesage-box{
+                    textarea{
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    // haqqimizda sehifesi
+    .about-section{
+        height: auto;
+
+        .main-box{
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+
+            .video-box{
+                width: 100%;
+                height: auto;
+            }
+
+            .text-box{
+                width: 100%;
+                height: auto;
+
+                .title{
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+
+    .about2-section{
+        height: auto;
+
+        .hero-box{
+            height: auto;
+
+            .part1{
+                height: auto;
+                flex-direction: column;
+
+                .text{
+                    width: 100%;
+                    height: auto;
+
+                    .title{
+                        height: auto;
+
+                        h1{
+                            font-size: 25px;
+                        }
+                    }
+
+                    .words-box{
+                        height: auto;
+                    }
+                }
+
+                .photo-box{
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .about3-section{
+        height: auto;
+
+        .hero-box{
+            flex-direction: column;
+            height: auto;
+
+            .text-box{
+                width: 100%;
+                height: auto;
+
+                .text{
+                    height: auto;
+                }
+            }
+
+            .photo-box{
+                width: 100%;
+
+                .photo{
+                    top: 0px;
+                    left: 0px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    // loader
+    .loader{
+        img{
+            width: 60%;
+        }
+    }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    header{
+        position: relative;
+        height: 100px;
+        .logo{
+            width: 30%;
+            height: 100px;
+
+            a{
+                background-color: aqua;
+                height: 100px;
+
+                img{
+                    width: 100%;
+                    height: 100px;
+                }
+            }
+
+            .path{
+                top: -2px;
+                right: -150px;
+                height: 102px;
+            }
+        }
+
+        .nav{
+            width: 70%;
+            height: 100px;
+            .navOne{
+                display: none;
+            }
+
+            .navTwo{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                height: 100px;
+
+                ul{
+                    display: none;
+                }
+
+                .fa-solid{
+                    display: block;
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                    margin-right: 20px;
+                    color: #3EB549;
+                }
+            }
+        }
+
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 100px;
+            width: 100%;
+            height: 600px;
+            z-index: 99;
+            transition: all 0.5s;
+            background-color: #F6F1F1;
+
+            .main-box{
+                width: 80%;
+                height: 500px;
+
+                .nav{
+                    width: 100%;
+                    height: auto;
+
+                    .ul{
+                        width: 100%;
+                        height: 240px;
+                        text-align: center;
+                        margin-top: 10px;
+                        background-color: #F6F1F1;
+                        a{
+                            text-decoration: none;
+                            color: black;
+
+                            li{
+                                font-size: 20px;
+                                font-family: 'Times New Roman', Times, serif;
+                                margin-bottom: 20px;
+                                cursor: pointer;
+                                &:hover{
+                                    color: #3EB549;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .nav-2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 100%;
+                    height: 80px;
+
+                    button{
+                        font-size: 18px;
+                        font-weight: 600;
+                        background: transparent;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+
+                .nav-3{
+                    text-align: center;
+                    width: 100%;
+                    height: 150px;
+
+                    p{
+                        color: black;
+                        font-size: 20px;
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    // home sehifesi
+    .home{
+        .text-box{
+            width: 80% !important;
+            top: 100px;
+            left:30px;
+
+            .title{
+                padding-bottom: 20px;
+                h1{
+                    font-size: 40px;
+                }
+            }
+
+            .about{
+                padding-bottom: 20px;
+                p{
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+
+    .products{
+        align-items: initial;
+        height: 1600px;
+        .hero-box{
+            width: 80%;
+            height: 1500px;
+            .list{
+                justify-content: center;
+                flex-wrap: wrap;
+                .product-card{
+                    width: 300px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .path1{
+            top: 1570px;
+        }
+    }
+
+    .aboutUs{
+        height: 1800px !important;
+        .layer{
+            align-items: initial;
+            padding-top: 50px;
+            height: 1750px;
+            .main-box{
+                width: 90%;
+                margin-top: 400px;
+                margin-top: 80px;
+                .aboutUs-title{
+                    align-items: initial;
+                    height: auto;
+                }
+                .hero-box{
+                    height: 1300px;
+                    .main-div{
+                        align-items: center;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        width: 100%;
+                        height: auto;
+                        .category-div{
+                            width: 100%;
+                            height: auto;
+                            .haqqimizda{
+                                border-radius: 50px;
+                            }
+                            .missiyamız{
+                                border-radius: 50px;
+                            }
+                            .vizyonumuz{
+                                border-radius: 50px;
+                            }
+                            .active-category{
+                                border-radius: 50px;
+                            }
+                        }
+                        .hero-div{
+                            align-items: initial;
+                            text-align: center;
+                            width: 100%;
+                            height: 920px;
+                            .haqqimizda-div{
+                                align-items: initial;
+                                margin-top: 50px;
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .carousel{
+
+        .main-box{
+            width: 90%;
+
+            .title{
+                height: auto;
+            }
+        }
+    }
+
+    .slogan{
+        flex-wrap: wrap;
+        height: 1000px;
+
+        .logo{
+            width: 100%;
+            .layer{
+                display: none;
+            }
+        }
+
+        .text-box{
+            width: 100%;
+
+            .hero-box{
+                width: 90%;
+            }
+        }
+    }
+
+    .news{
+        align-items: initial;
+        height: 1500px;
+
+        .main-box{
+            width: 90%;
+            height: auto !important;
+
+            .cards-list{
+                justify-content: center;
+                flex-wrap: wrap;
+
+                .news-card{
+                    width: 400px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    footer{
+        height: auto;
+
+        .footer-top{
+            height: 800px;
+
+            .main-box{
+                width: 90%;
+                flex-wrap: wrap;
+                height: auto;
+
+                .logo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                }
+
+                .nav-1{
+                    width: 50%;
+                }
+
+                .nav-2{
+                    width: 50%;
+                }
+
+                .subscribe{
+                    width: 100%;
+                }
+            }
+        }
+
+        .footer-alt{
+            height: 300px;
+
+            .hero-box{
+                width: 50%;
+                height: auto;
+                gap: 20px;
+            }
+        }
+    }
+
+
+    // mehsullar sehifesi
+    .products-section{
+        height: auto;
+        align-items: initial;
+
+        .main-box{
+            width: 90%;
+            justify-content: center;
+
+            .product-card{
+                width: 250px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    // xeberler sehifesi
+    .news-section{
+        height: auto;
+
+        .main-box{
+            width: 90%;
+            justify-content: center;
+
+            .news-card{
+                width: 400px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    // contact sehifesi
+    .adresses{
+            height: auto;
+    
+            .hero-box{
+                width: 400px;
+                height: auto;
+                flex-direction: column;
+                background-color: aquamarine;
+    
+                .telephone-box{
+                    width: 100%;
+                    border-bottom: 3px solid #3EB549;
+    
+                    ::after{
+                        display: none;
+                    }
+    
+                    .logo{
+                        justify-content: center;
+                    }
+    
+                    .title{
+                        justify-content: center;
+                    }
+    
+                    .number{
+                        justify-content: center;
+                    }
+                }
+    
+                .adress-box{
+                    width: 100%;
+                    border-bottom: 3px solid #3EB549;
+    
+                    ::after{
+                        display: none;
+                    }
+    
+                    .logo{
+                        justify-content: center;
+                    }
+    
+                    .title{
+                        justify-content: center;
+                    }
+    
+                    .adress{
+                        text-align: center;
+                        justify-content: center;
+                    }
+                }
+    
+                .email-box{
+                    width: 100%;
+    
+                    .logo{
+                        justify-content: center;
+                    }
+    
+                    .title{
+                        justify-content: center;
+                    }
+    
+                    .number{
+                        justify-content: center;
+                    }
+                }
+            }
+    }
+
+    .form-section{
+        height: auto;
+
+        .main-box{
+            height: auto;
+            flex-direction: column;
+
+            .photo{
+                width: 100%;
+                padding-top: 50px;
+            }
+
+            .photo::before{
+                top: 60px;
+                left: 10px;
+            }
+
+            .form-box{
+                width: 100%;
+                height: auto;
+
+                .text{
+                    padding-top: 30px;
+                }
+
+                .inputs-group{
+                    height: auto;
+                    flex-direction: column;
+
+                    .input-name{
+                        width: 95%;
+                        margin-bottom: 10px;
+                        margin-left: 0px;
+                    }
+
+                    .input-email{
+                        width: 95%;
+                        margin-right: 0px;
+                    }
+                }
+
+                .meesage-box{
+                    textarea{
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    // haqqimizda sehifesi
+    .about-section{
+            height: auto;
+    
+            .main-box{
+                width: 90%;
+                height: auto;
+                flex-direction: column;
+    
+                .video-box{
+                    width: 100%;
+                    height: auto;
+                }
+    
+                .text-box{
+                    width: 100%;
+                    height: auto;
+    
+                    .title{
+                        padding-top: 20px;
+                    }
+                }
+            }
+    }
+    
+    .about2-section{
+            height: auto;
+    
+            .hero-box{
+                height: auto;
+    
+                .part1{
+                    height: auto;
+                    flex-direction: column;
+    
+                    .text{
+                        width: 100%;
+                        height: auto;
+    
+                        .title{
+                            height: auto;
+    
+                            h1{
+                                font-size: 25px;
+                            }
+                        }
+    
+                        .words-box{
+                            height: auto;
+                        }
+                    }
+    
+                    .photo-box{
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                    }
+                }
+            }
+    }
+    
+    .about3-section{
+            height: auto;
+    
+            .hero-box{
+                flex-direction: column;
+                height: auto;
+    
+                .text-box{
+                    width: 100%;
+                    height: auto;
+    
+                    .text{
+                        height: auto;
+                    }
+                }
+    
+                .photo-box{
+                    width: 100%;
+    
+                    .photo{
+                        top: 0px;
+                        left: 0px;
+                        width: 100%;
+                    }
+                }
+            }
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+    header{
+        position: relative;
+        height: 100px;
+        .logo{
+            width: 30%;
+            height: 100px;
+
+            a{
+                background-color: aqua;
+                height: 100px;
+
+                img{
+                    width: 100%;
+                    height: 100px;
+                }
+            }
+
+            .path{
+                top: -2px;
+                right: -145px;
+                height: 102px;
+            }
+        }
+
+        .nav{
+            width: 70%;
+            height: 100px;
+            .navOne{
+                display: none;
+            }
+
+            .navTwo{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                height: 100px;
+
+                ul{
+                    display: none;
+                }
+
+                .fa-solid{
+                    display: block;
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                    margin-right: 20px;
+                    color: #3EB549;
+                }
+            }
+        }
+
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 100px;
+            width: 100%;
+            height: 600px;
+            z-index: 99;
+            transition: all 0.5s;
+            background-color: #F6F1F1;
+
+            .main-box{
+                width: 80%;
+                height: 500px;
+
+                .nav{
+                    width: 100%;
+                    height: auto;
+
+                    .ul{
+                        width: 100%;
+                        height: 240px;
+                        text-align: center;
+                        margin-top: 10px;
+                        background-color: #F6F1F1;
+                        a{
+                            text-decoration: none;
+                            color: black;
+
+                            li{
+                                font-size: 20px;
+                                font-family: 'Times New Roman', Times, serif;
+                                margin-bottom: 20px;
+                                cursor: pointer;
+                                &:hover{
+                                    color: #3EB549;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .nav-2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 100%;
+                    height: 80px;
+
+                    button{
+                        font-size: 18px;
+                        font-weight: 600;
+                        background: transparent;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+
+                .nav-3{
+                    text-align: center;
+                    width: 100%;
+                    height: 150px;
+
+                    p{
+                        color: black;
+                        font-size: 20px;
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    // home sehifesi
+    .home{
+        .text-box{
+            width: 80% !important;
+            top: 100px;
+            left:30px;
+
+            .title{
+                padding-bottom: 20px;
+                h1{
+                    font-size: 40px;
+                }
+            }
+
+            .about{
+                padding-bottom: 20px;
+                p{
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+
+    .products{
+        align-items: initial;
+        height: 1200px;
+        .hero-box{
+            width: 80%;
+            height: 1200px;
+            .list{
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .product-card{
+                    width: 250px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .path1{
+            top: 1200px;
+        }
+    }
+
+    .aboutUs{
+        height: 1800px !important;
+        .layer{
+            align-items: initial;
+            padding-top: 50px;
+            height: 1750px;
+            .main-box{
+                width: 90%;
+                margin-top: 400px;
+                margin-top: 80px;
+                .aboutUs-title{
+                    align-items: initial;
+                    height: auto;
+                }
+                .hero-box{
+                    height: 1300px;
+                    .main-div{
+                        align-items: center;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        width: 100%;
+                        height: auto;
+                        .category-div{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            width: 100%;
+                            height: auto;
+                            .haqqimizda{
+                                width: 300px;
+                                border-radius: 50px;
+                            }
+                            .missiyamız{
+                                width: 300px;
+                                border-radius: 50px;
+                            }
+                            .vizyonumuz{
+                                width: 300px;
+                                border-radius: 50px;
+                            }
+                            .active-category{
+                                width: 300px;
+                                border-radius: 50px;
+                            }
+                        }
+                        .hero-div{
+                            align-items: initial;
+                            text-align: center;
+                            width: 100%;
+                            height: 920px;
+                            .haqqimizda-div{
+                                align-items: initial;
+                                margin-top: 50px;
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .carousel{
+
+        .main-box{
+            width: 90%;
+
+            .title{
+                height: auto;
+            }
+        }
+    }
+
+    .slogan{
+
+        .logo{
+            width: 30%;
+
+            img{
+                width: 200px;
+            }
+        }
+
+        .text-box{
+            width: 70%;
+
+            .hero-box{
+                width: 60%;
+            }
+        }
+    }
+
+    .news{
+        align-items: initial;
+        height: 1100px;
+
+        .main-box{
+            width: 90%;
+            height: auto !important;
+
+            .news-title{
+                padding-top: 50px;
+            }
+
+            .cards-list{
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                .news-card{
+                    width: 330px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+
+    // mehsullar sehifesi
+    .products-section{
+        height: auto;
+        align-items: initial;
+
+        .main-box{
+            width: 90%;
+            justify-content: center;
+
+            .product-card{
+                width: 250px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .form-section{
+
+        .main-box{
+
+            .photo::before{
+                top: 30px;
+                left: 10px;
+            }
+        }
+    }
+
+
+    // haqqimizda sehifesi
+    .about-section{
+            height: auto;
+    
+            .main-box{
+                width: 80%;
+                height: auto;
+                flex-direction: column;
+    
+                .video-box{
+                    width: 100%;
+                    height: auto;
+                }
+    
+                .text-box{
+                    width: 100%;
+                    height: auto;
+    
+                    .title{
+                        padding-top: 20px;
+                    }
+                }
+            }
+    }
+    
+    .about2-section{
+            height: auto;
+    
+            .hero-box{
+                height: auto;
+    
+                .part1{
+                    height: auto;
+                    flex-direction: column;
+    
+                    .text{
+                        width: 100%;
+                        height: auto;
+    
+                        .title{
+                            height: auto;
+    
+                            h1{
+                                font-size: 25px;
+                            }
+                        }
+    
+                        .words-box{
+                            height: auto;
+                        }
+                    }
+    
+                    .photo-box{
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                    }
+                }
+            }
+    }
+    
+    .about3-section{
+            height: auto;
+    
+            .hero-box{
+                flex-direction: column;
+                height: auto;
+    
+                .text-box{
+                    width: 100%;
+                    height: auto;
+    
+                    .text{
+                        height: auto;
+                    }
+                }
+    
+                .photo-box{
+                    width: 100%;
+    
+                    .photo{
+                        top: 0px;
+                        left: 0px;
+                        width: 100%;
+                    }
+                }
+            }
+    }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    header{
+        position: relative;
+        height: 100px;
+        .logo{
+            width: 30%;
+            height: 100px;
+
+            a{
+                background-color: aqua;
+                height: 100px;
+
+                img{
+                    width: 100%;
+                    height: 100px;
+                }
+            }
+
+            .path{
+                top: -2px;
+                right: -150px;
+                height: 102px;
+            }
+        }
+
+        .nav{
+            width: 70%;
+            height: 100px;
+            .navOne{
+                display: none;
+            }
+
+            .navTwo{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                height: 100px;
+
+                ul{
+                    display: none;
+                }
+
+                .fa-solid{
+                    display: block;
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                    margin-right: 20px;
+                    color: #3EB549;
+                }
+            }
+        }
+
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 100px;
+            width: 100%;
+            height: 600px;
+            z-index: 99;
+            transition: all 0.5s;
+            background-color: #F6F1F1;
+
+            .main-box{
+                width: 80%;
+                height: 500px;
+
+                .nav{
+                    width: 100%;
+                    height: auto;
+
+                    .ul{
+                        width: 100%;
+                        height: 240px;
+                        text-align: center;
+                        margin-top: 10px;
+                        background-color: #F6F1F1;
+                        a{
+                            text-decoration: none;
+                            color: black;
+
+                            li{
+                                font-size: 20px;
+                                font-family: 'Times New Roman', Times, serif;
+                                margin-bottom: 20px;
+                                cursor: pointer;
+                                &:hover{
+                                    color: #3EB549;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .nav-2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 100%;
+                    height: 80px;
+
+                    button{
+                        font-size: 18px;
+                        font-weight: 600;
+                        background: transparent;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+
+                .nav-3{
+                    text-align: center;
+                    width: 100%;
+                    height: 150px;
+
+                    p{
+                        color: black;
+                        font-size: 20px;
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    // home sehifesi
+    .products{
+        align-items: initial;
+        height: 1100px;
+        .hero-box{
+            width: 80%;
+            height: 1100px;
+
+            .title{
+                margin-top: 50px;
+            }
+
+            .list{
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .product-card{
+                    width: 230px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .path1{
+            top: 1100px;
+        }
+    }
+
+    .aboutUs{
+        .layer{
+            .main-box{
+                .hero-box{
+                    .main-div{
+                        width: 100%;
+                        .hero-div{
+                            .haqqimizda-div{
+                                width: 100%;
+                                align-items: initial;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    // mehsullar sehifesi
+    .products-section{
+        height: auto;
+        align-items: initial;
+
+        .main-box{
+            width: 90%;
+            justify-content: center;
+
+            .product-card{
+                width: 250px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .form-section{
+
+        .main-box{
+
+            .photo::before{
+                top: 30px;
+                left: 10px;
+            }
+        }
+    }
+
+
+    // haqqimizda sehifesi
+
+    .about-section{
+        height: auto;
+
+        .main-box{
+            margin-top: 30px;
+            height: auto;
+            
+            .text-box{
+                height: auto;
+            }
+        }
+    }
+
+    .about2-section{
+        height: auto;
+
+        .hero-box{
+            height: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            .part1{
+                height: auto;
+
+                .text{
+                    height: auto;
+
+                    .words-box{
+                        height: auto;
+                    }
+                }
+
+                .photo-box{
+                    align-items: center;
+                    justify-content: center;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .about3-section{
+        height: auto;
+
+        .hero-box{
+            height: auto;
+
+            .text-box{
+                height: auto;
+
+                .text{
+                    height: auto;
+                }
+            }
+
+            .photo-box{
+
+                .photo{
+                    top: 50px;
+                    left: 0px;
+                }
+            }
+        }
+    }
+}
